@@ -171,7 +171,7 @@
 }
 @media (max-width:992px) {
   .video-control{
-    padding-top: 200px;
+    /* padding-top: 200px; */
   }
   
 }
@@ -279,7 +279,7 @@
 @media (max-width:912px) {
   
   .vid {
-    margin-top: 298px;
+    margin-top: 130px;
 
 }
 }
