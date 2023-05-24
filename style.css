@@ -1,0 +1,295 @@
+
+.main-nav{
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+.navbar{
+  background: #009B4E;
+  padding: 14px;
+}
+.navbar-brand img{
+  height: 50px;
+  margin-left: 16px;
+}
+.navbar-nav ul{
+  margin-left: 40px;
+  
+}
+.navbar-nav a{
+  color: white;
+}
+.font-family{
+  font-family:'Anton',sans-serif;
+  font-size: 12px;
+  font-size: 12px;
+}
+.list-group{
+  list-style-type:none;
+}
+.list-group li{
+  list-style: none;
+
+}
+.vertical-align{
+  flex-direction: row;
+ 
+}
+.nav-item a{
+  cursor: pointer;
+}
+
+
+.col-lg-6 .col-sm-12{
+  
+  height: 600px;
+}
+
+
+.prymary-area{
+  height: 600px;
+  background-color: black;
+}
+.section-area{
+  height: 600px;
+
+}
+.primary-image{
+  height: 600px;
+  max-width: 700px;
+}
+.primary-text{
+  font-weight: 900;
+  font-style: normal;
+  line-height: 1.2em;
+  color: white;
+    font-size: 4em;
+
+}
+.primary-title{
+  width: 427px;
+  height: 80px;
+
+}
+.def-img{
+  display: none;
+}
+
+.decription h1{
+ 
+  font-size: 64.0px;
+  line-height: 1.0em;
+  color: black;
+  font-weight: 900;
+  font-family:'Anton',sans-serif;
+}
+.decription h3{
+  margin-top: 50px;
+  font-family: "AktivGroteskCdBlack";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2em;
+  font-family:'Anton',sans-serif;
+}
+.text-bottle-img{
+  width:420px;
+  height: auto;
+}
+.text-section-1 h1{
+  padding-top: 5px;
+  font-size:54px;
+  line-height: 1.25em;
+  color: rgb(0,150,57);
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-family:'Anton',sans-serif;
+  
+}
+@media (max-width:820px) {
+ .primary-image{
+  display: none;
+
+ }
+  .def-img{
+
+    display: flex;
+    width:100%;
+    height: 407px;
+  }
+  .prymary-area{
+    height: 750px;
+    background-color: black;
+  }
+  .primary-text{
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.2em;
+    color: white;
+      font-size: 1.2em;
+  
+  }
+  .primary-title{
+    width: 177px;
+    height: 50px;
+  
+  }
+  .video-control{
+    padding-top: 60px;
+    
+  }
+  .vid{
+    /* margin-left:80px; */
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+  }
+
+  .btn{
+    margin-top: 30px;
+    margin-left:20px;
+  }
+  .footer-img{
+    width: 200px;
+    margin-top: 60px;
+    margin-left:50px ;
+  }
+  .footer-img{
+    width: 200px;
+    margin-top: 60px;
+    margin-left:100px ;
+  }
+ 
+}
+@media (max-width:414px) {
+  .footer-img{
+    width: 200px;
+    margin-top: 60px;
+    margin-left:50px ;
+  }
+ 
+}
+@media (max-width:992px) {
+  .video-control{
+    padding-top: 200px;
+  }
+  
+}
+
+
+@media (max-width:280px) {
+  .def-img{
+
+    display: flex;
+    width:100%;
+    height: 7px;
+  }
+  .text-bottle-img {
+    width: 264px;
+    height: 298px;
+}
+.text-section-1 h1{
+  padding-top: 5px;
+  font-size:14px;
+  line-height: 1.25em;
+  color: rgb(0,150,57);
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-family:'Anton',sans-serif;
+  
+}
+.footer-img{
+  width: 200px;
+  margin-top: 60px;
+  margin-left:10px ;
+}
+.decription h1 {
+  font-size: 34.0px;
+  line-height: 1.0em;
+  color: black;
+  font-weight: 900;
+  font-family: 'Anton',sans-serif;
+}
+}
+
+@media (max-width:576px) {
+  
+  .text-bottle-img {
+    width: 264px;
+    height: 298px;
+    margin-left: 30px;
+}
+}
+
+@media (max-width:768px) {
+  
+  .text-bottle-img {
+    width: 237px;
+    height: 278px;
+    
+}
+}
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+/* .text-section-1 h1{
+  padding-top: 30px;
+  font-size:18px;
+  line-height: 1.25em;
+  color: rgb(0,150,57);
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-family:'Anton',sans-serif;
+  
+} */
+.foot-bar{
+  background-color:#009B4E;
+}
+
+/*  */
+
+.footer{
+  background: #009B4E;
+  color:white;
+
+}
+.foot-section{
+  list-style: none;
+  
+  
+}
+.heading{
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+  
+  font-style: normal;
+  letter-spacing: 2px;
+  font-family:'Anton',sans-serif;
+}
+.foot-section a{
+  line-height: 3px;
+  text-decoration: none;
+  color: aliceblue; 
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family:'Anton',sans-serif;
+ 
+}
+.footer-img{
+  width: 200px;
+  margin-top: 60px;
+  margin-left:65px; ;
+}
+
+@media (max-width:912px) {
+  
+  .vid {
+    margin-top: 298px;
+
+}
+}

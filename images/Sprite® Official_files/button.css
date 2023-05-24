@@ -1,0 +1,5 @@
+.ps-widget[ps-sku] > small, .ps-widget[data-ps-sku] > small {
+  display: none; }
+
+.ps-widget[ps-sku]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
